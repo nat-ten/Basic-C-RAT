@@ -1,2 +1,2 @@
 # Basic-C-RAT
-Very basic Windows RAT written in C
+Very basic Windows RAT written in C.
