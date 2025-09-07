@@ -43,7 +43,6 @@ WCHAR* GetAppVer() { //get discord version number folder
         FindClose(hFind);
         return &versionNum;
     }
-    MessageBox(0, L"Discord/App folder not found", L"Message", MB_OK);
     exit(0);
 }
 
@@ -91,7 +90,6 @@ WCHAR* GetTempFolder() { //get folder to place original update.exe in
     wcscat(path, L"Temp\\REALUPDATE.exe");
 
     return path;
-
 }
 
 void SetUp() {
