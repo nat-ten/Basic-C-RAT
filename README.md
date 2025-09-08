@@ -1,4 +1,4 @@
-# Basic-C-RAT
+# Basic_C_RAT
 Very basic Windows RAT written in C.
 
 Requires the victim to have Discord installed.
