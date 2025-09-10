@@ -10,5 +10,8 @@ Once a connection is made, it opens a cmd and pipes standard input, output, and 
 Discord was chosen because it installs itself in the user's appdata folder and creates a registry key so that it runs itself on startup.
 Because the appdata folder can be read and written to, Update.exe can easily be hijacked by a malicious program to gain persistence and be run everytime on startup.
 
-I got the idea to write this when I read this paper: 
+I got the idea to write this reading this paper: 
 https://github.com/vxunderground/VXUG-Papers/blob/main/The%20Persistence%20Series/Masquerading%20the%20HKCU%20Run%20Key/MasqueradingtheHKCURunKey.pdf
+
+The paper outlines a number of possible applications that can be hijacked, but I chose Discord for no particular reason. In the future, I might update the RAT so that
+it can target any number of the applications shown in the paper.
