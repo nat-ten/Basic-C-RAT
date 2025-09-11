@@ -13,5 +13,4 @@ Because the appdata folder can be read and written to, Update.exe can easily be 
 I got the idea to write this reading this paper: 
 https://github.com/vxunderground/VXUG-Papers/blob/main/The%20Persistence%20Series/Masquerading%20the%20HKCU%20Run%20Key/MasqueradingtheHKCURunKey.pdf
 
-The paper outlines a number of possible applications that can be hijacked, but I chose Discord for no particular reason. In the future, I might update the RAT so that
-it can target any number of the applications shown in the paper.
+The paper outlines a number of possible applications that can be hijacked, but I chose Discord for no particular reason. Any of those applications listed could have been used instead in a similar way. In the future, I might update the RAT so that it can target any number of the applications shown in the paper.
